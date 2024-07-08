@@ -1,0 +1,129 @@
+/* CSS for Index Page */
+
+body {
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+    color: #58595B;
+    margin: 0px auto;
+    padding: 30px;
+    background: #f7f7f7;
+    text-align: center;
+  }
+  
+  #title {
+     text-transform: uppercase;
+  }
+
+ main {
+  padding-top: 100px;
+ }
+
+ #greeting {
+  padding: 0;
+  margin: 0;
+ }
+
+ table {
+  margin: 50px 0 20px 0;
+ }
+
+  
+  /* CUSTOMER INFO STYLING----------------------------------------------- */
+
+  #customer-info {
+      width: 400px;
+      background-color: lightgrey;
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+
+      gap: 10px;
+      border-radius: 10px;
+      padding: 30px 15px 20px 0px;
+
+
+      position: absolute;
+      right: 100px;
+      top: 150px;
+  }
+  
+  #customer-info input {
+    margin-left: 25px;
+  }
+
+  #customer-info label {
+    font-weight: bold;
+  }
+
+  #customer-info button {
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+
+/* NOTICEBOARD STYLING----------------------------------------------- */
+    #noticeboard {
+      width: 400px;
+      background-color: lightgrey;
+
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+
+      gap: 10px;
+      border-radius: 10px;
+      padding: 30px 15px 20px 0px;
+
+      position: absolute;
+      right: 100px;
+      top: 350px;
+    }
+
+    #noticeboard input {
+      margin-left: 25px;
+    }
+
+    #noticeboard label {
+      font-weight: bold;
+    }
+
+    #noticeboard button {
+      width: 100px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    
+/* CALCULATOR TABLE------------------------------------------------- */
+  table {
+    padding: 0px;
+    margin-left:auto; 
+    margin-right:auto;}
+  
+  td {
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 3px;
+    text-align: left;
+  }
+  
+  #calculate {
+    color: #00ab95;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  #calculate:hover {
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: #ed6c7b;
+  }

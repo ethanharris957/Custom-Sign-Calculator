@@ -1,0 +1,72 @@
+
+<html>
+<head>
+  <title>Custom Sign Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">Custom Sign Calculator</h1>
+  </header>
+
+
+  <main>
+    <h2 id="greeting" class="message">
+      Hello, <span id="user-name"></span>! Here's your order!
+    </h2>
+
+    <table>
+      <tr>
+        <td>Custom sign: </td>
+        <td><input type="text" id="sign-name"></td>
+      </tr>
+      <tr>
+        <td>Total tiles: </td>
+        <td id="tiles"></td>
+      </tr>
+      <tr>
+        <td>Price Per Tile: </td>
+        <td id="price"></td>
+      </tr>
+      <tr>
+        <td>Subtotal: </td>
+        <td id="subtotal"></td>
+      </tr>
+      <tr>
+        <td>Shipping: </td>
+        <td id="shipping"></td>
+      </tr>
+      <tr>
+        <td>Grand total: </td>
+        <td id="total"></td></tr>
+    </table>
+
+    <button id="calculate">Calculate</button> 
+  
+    <div  id="customer-info">
+      <label for="name">What's your name?<input type="text" id="name"></label>
+      <button type="submit" id="submit-name">Submit</button>
+    </div>
+
+    <div id="noticeboard">
+      <label for="tile-price">Price Per Tile<input type="text" id="tile-price" value="5"></label>
+      <label for="shipping-price">Shipping Price<input type="text" id="shipping-price" value="10"></label>
+      <button type="submit" id="changePrices">Change</button>
+    </div>
+
+    <div>
+      <h2>Unfinished Project</h2>
+      <p>-Need to fix the subtotal + shipping = grandtotal script <br>
+         -Everything stopped working when i tried to declare the function and call it at a different time???<br>
+         -Need to be able to change the main board when the user changes prices on the noticeboard <br>
+         -Need the user to input their name on the onload alert for the first time
+         -Need to figure out why JS functions are being called on page load
+      </p>
+    </div>
+  </main>
+  <footer></footer>
+</body>  
+
+  <script src="index.js"></script>
+</html>
+
